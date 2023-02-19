@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- title -->
+    <title>Tic Tac Toe</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+    <!-- title icon -->
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <h1>Tic-Tac-Toe</h1>
+    </header>
+    <!-- MAIN -->
+    <main>
+        <h3 class="message">"Player x's turn"</h3>
+        <div class="gameboard">
+            <div class="field" data-index="0"></div>
+            <div class="field" data-index="1"></div>
+            <div class="field" data-index="2"></div>
+            <div class="field" data-index="3"></div>
+            <div class="field" data-index="4"></div>
+            <div class="field" data-index="5"></div>
+            <div class="field" data-index="6"></div>
+            <div class="field" data-index="7"></div>
+            <div class="field" data-index="8"></div>
+        </div>
+        <div class="btn">
+            <button class="restartBtn">Restart</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>Copyright ©
+            <script>
+                document.write(new Date().getFullYear())
+            </script> Joemar
+            <a href="https://github.com/joemardevs" target="_blank"><i class="fa-brands fa-github fa-xl"></i></a>
+        </p>
+    </footer>
+    <!-- js script -->
+    <script src="app.js"></script>
+</body>
+
+</html>
